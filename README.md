@@ -66,7 +66,7 @@ The relevant Python libraries are pre-configured in mrdc_env.yaml. Complete the 
 
 Clone this repository to your local machine:
 
-git clone https://github.com/javaojo/MultinationalRetailDataCentralisation.git
+git clone https://github.com/javaojo/Multinational-Retail-Data-Centralisation.git
 
 README.md: Documentation file.
 
