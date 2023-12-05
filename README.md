@@ -56,9 +56,6 @@ WHERE condition;
 
 The relevant Python libraries are pre-configured in mrdc_env.yaml. Complete the installation by executing:
 
-conda env create -f mrdc_env.yaml
-conda activate mrdc
-
 # Installation
 
 Clone this repository to your local machine:
