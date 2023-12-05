@@ -3,8 +3,14 @@
 # Description
 The Multinational Retail Data Centralisation project is designed to centralise and organize sales data from a multinational company, creating a unified source of truth for easy access and analysis by team members. The project involves setting up a robust database to store the sales data and implementing a system that ensures data consistency and accessibility.
 
-Prerequisites
+# Prerequisites
 Before using this project, make sure you have the following prerequisites installed and configured:
+
+you can install the required packages listed in the requirements.txt file:
+
+```python
+!pip install -r requirements.txt
+```
 
 Python:
 
@@ -73,10 +79,8 @@ Uploading Data to PostgreSQL and Centralising Data
 Execute the main script to centralise data to PostgreSQL. You will have to put your database credentials and Aicore credentials in the Python script:
 
 # Creating a Star Schema Sales Database
-In PGAdmin 4 or using SQLTools in VSCode, connect to the PostgreSQL database to view the sales data. Run all the files in the milestone_3_star_schema_sales_database/modify_table_data_types directory to ensure all the tables in PostgreSQL are of the correct data types.
-Run the primary keys and foreign key files in milestone_3_star_schema_sales_database/primary_foreign_keysto create primary and foreign keys to complete the star-based schema.
-Queries
-Once the star-based schema is complete, run the business SQL queries to extract up-to-date metrics for the business. The queries from the business can be found in the milestone_4_data_querying directory.
+In PGAdmin 4 or using the JupySQL extension, connect to the PostgreSQL database to view the sales data. 
+Once the star-based schema is complete, run the business SQL queries to extract up-to-date metrics for the business.
 
 # License
 This project is open to the public.
